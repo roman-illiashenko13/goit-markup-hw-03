@@ -4,12 +4,59 @@ body {
   background-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  border-bottom: ;
+}
+
+.header-nav {
+  display: flex;
 }
 
 .header-logo {
@@ -20,9 +67,20 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .company-name {
   color: #2e2f42;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-menu-link {
@@ -44,9 +102,10 @@ a {
 
 .header-contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
-.header-contacts-list {
+.header-contacts-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -68,6 +127,11 @@ a {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-wrap {
 }
 
 .hero-title {
@@ -75,8 +139,10 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  max-width: 496px;
+  padding-bottom: 48px;
+  margin: 0 auto;
 }
 
 .hero-btn-main {
@@ -87,6 +153,9 @@ a {
   color: #fff;
   cursor: pointer;
   background: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .hero-btn-main:hover {
@@ -101,12 +170,18 @@ a {
   background-color: #ffffff;
 }
 
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-item-title {
@@ -127,10 +202,19 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 .team-subtitle {
@@ -158,9 +242,14 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
+
 .portfolio-item {
 }
 .portfolio-subtitle {
