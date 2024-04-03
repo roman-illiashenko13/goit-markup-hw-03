@@ -21,6 +21,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,6 +52,7 @@ section {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc для;
 }
 
 .header-container {
@@ -56,6 +61,7 @@ section {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -89,6 +95,7 @@ section {
   letter-spacing: 0.02em;
   color: #2e2f42;
   cursor: pointer;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -151,12 +158,14 @@ section {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
   margin: 0 auto;
   display: block;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-btn-main:hover {
@@ -174,6 +183,10 @@ section {
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -203,12 +216,17 @@ section {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   gap: 24px;
 }
+
+.team-container {
+  padding: 32px 0;
+}
+
 .team-item {
   padding: 0px 0px 32px 0px;
   width: 264px;
@@ -229,6 +247,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -242,6 +261,7 @@ section {
 
 .portfolio {
   background-color: #ffffff;
+  margin-bottom: 72px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -306,6 +326,8 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-size: 16px;
