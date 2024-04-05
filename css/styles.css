@@ -240,9 +240,7 @@ section {
 }
 
 .team-item {
-  padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 380px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -251,7 +249,6 @@ section {
 }
 
 .team-img {
-  margin-bottom: 32px;
 }
 
 .team-container {
@@ -307,7 +304,6 @@ section {
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
   width: 360px;
-  height: 120px;
 }
 
 .portfolio-subtitle {
@@ -351,5 +347,4 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 263px;
-  padding-top: 16px;
 }
